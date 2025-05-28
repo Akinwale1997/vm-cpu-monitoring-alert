@@ -48,7 +48,7 @@ Imagine you're managing critical workloads on Azure VMs. One of the VMs begins c
    ![Azure Monitor Overview](./azure-monitor-overview.png)
 ---
 
-## 🔐 Key Takeaways
+## 🔐 What i Noticed
 
 - Alerts provide proactive security and performance awareness.
 - Action groups let you decide *how* and *who* to notify when alerts fire.
@@ -56,7 +56,7 @@ Imagine you're managing critical workloads on Azure VMs. One of the VMs begins c
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 
 
 Olarinde Akinwale  
 Cloud Security Engineer in Training | Azure Enthusiast
@@ -65,4 +65,4 @@ Cloud Security Engineer in Training | Azure Enthusiast
 
 ## 📌 Repo Highlights
 
-This repo is part of my AZ-104: Microsoft Azure Administrator hands-on project series. Feel free to explore and reuse the workflow in your own environment!
+This repo is part of my AZ-104: Microsoft Azure Administrator hands-on project series.
