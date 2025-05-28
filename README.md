@@ -18,39 +18,34 @@ Imagine you're managing critical workloads on Azure VMs. One of the VMs begins c
 
 ## ✅ Steps Performed
 
-### 1. Azure Monitor View  
-Visual confirmation from Azure Monitor overview dashboard.  
-![Azure Monitor Overview](001-azure-monitor-overview.png)
+1. Select Alert Scope  
+   Defined "All virtual machines" in the West US 2 region as the target scope.  
+   ![Alert Rule Scope](./01-alert-rule-scope.png)
 
-### 2. Select Alert Scope  
-Defined "All virtual machines" in the West US 2 region as the target scope.  
-![Alert Rule Scope](01-alert-rule-scope.png)
-
-### 3. Set Alert Logic  
-Configured CPU usage alert to trigger if usage is greater than 80% for 5 minutes.  
-![CPU Threshold](02-cpu-threshold-condition.png)
+2. Set Alert Logic  
+   Configured CPU usage alert to trigger if usage is greater than 80% for a continuous 5-minute window.  
+   ![CPU Threshold Condition](./02-cpu-threshold-condition.png)
 
 3. Notification Setup  
    Created an Action Group with Email + SMS alerts to notify on trigger.  
-   📷 03-alert-notification-setup.png
+   ![Notification Setup](./03-alert-notification-setup.png)
 
 4. Summary Review  
    Reviewed the entire alert rule configuration before deployment.  
-   📷 04-alert-rule-summary-review.png
+   ![Summary Review](./04-alert-rule-summary-review.png)
 
 5. Alert Rule Created  
    Successfully created and deployed the alert rule.  
-   📷 05-alert-rule-created.png
+   ![Alert Rule Created](./05-alert-rule-created.png)
 
 6. Notification Received  
    Received a real-time SMS and email alert when CPU usage met the threshold.  
-   📷 06-alert-sms-received.jpg  
-   📷 07-alert-email-received.jpg
+   ![SMS Notification](./06-alert-sms-received.jpg)  
+   ![Email Notification](./07-alert-email-received.jpg)
 
 7. Azure Monitor View  
    Visual confirmation from Azure Monitor overview dashboard.  
-   📷 azure-monitor-overview.png
-
+   ![Azure Monitor Overview](./azure-monitor-overview.png)
 ---
 
 ## 🔐 Key Takeaways
