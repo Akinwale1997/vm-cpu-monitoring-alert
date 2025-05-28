@@ -20,7 +20,7 @@ Imagine you're managing critical workloads on Azure VMs. One of the VMs begins c
 
 ### 1. Azure Monitor View  
 Visual confirmation from Azure Monitor overview dashboard.  
-![Azure Monitor Overview](01-azure-monitor-overview.png)
+![Azure Monitor Overview](001-azure-monitor-overview.png)
 
 ### 2. Select Alert Scope  
 Defined "All virtual machines" in the West US 2 region as the target scope.  
